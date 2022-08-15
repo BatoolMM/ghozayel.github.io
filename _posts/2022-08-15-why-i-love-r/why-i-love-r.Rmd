@@ -1,0 +1,48 @@
+---
+title: "Why I love R"
+description: |
+  A short description of the post.
+author:
+  - name: Ghozayel
+date: 2022-08-15
+creative commons: CC BY
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Loading libraries
+
+```{r}
+library(gapminder)
+library(ggplotAssist)
+library(tidyverse)
+```
+## Gapminder data
+```{r}
+gapminder <- gapminder
+gapminder
+```
+
+## Plotting
+```{r}
+plot <- ggplot(gapminder, aes(x = log(gdpPercap), col = year, y = lifeExp, size = pop)) +
+         geom_point(alpha = 0.3, color = 'red') +
+         geom_smooth(method = lm) +
+         facet_wrap(~continent, scales = 'free') +
+         theme_bw()
+plot
+```
+
+## Interactive plot
+
+```{r}
+library(plotly)
+ggplotly(plot)
+```
+
