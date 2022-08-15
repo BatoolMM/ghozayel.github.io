@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nLoading libraries\r\n\r\n\r\n\r\nGapminder data\r\n\r\n# A tibble: 1,704 x 6\r\n   country     continent  year lifeExp      pop gdpPercap\r\n   <fct>       <fct>     <int>   <dbl>    <int>     <dbl>\r\n 1 Afghanistan Asia       1952    28.8  8425333      779.\r\n 2 Afghanistan Asia       1957    30.3  9240934      821.\r\n 3 Afghanistan Asia       1962    32.0 10267083      853.\r\n 4 Afghanistan Asia       1967    34.0 11537966      836.\r\n 5 Afghanistan Asia       1972    36.1 13079460      740.\r\n 6 Afghanistan Asia       1977    38.4 14880372      786.\r\n 7 Afghanistan Asia       1982    39.9 12881816      978.\r\n 8 Afghanistan Asia       1987    40.8 13867957      852.\r\n 9 Afghanistan Asia       1992    41.7 16317921      649.\r\n10 Afghanistan Asia       1997    41.8 22227415      635.\r\n# ... with 1,694 more rows\r\n\r\nPlotting\r\n\r\n\r\n\r\nInteractive plot\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-08-15-why-i-love-r/why-i-love-r_files/figure-html5/unnamed-chunk-3-1.png",
-    "last_modified": "2022-08-15T16:35:31+01:00",
+    "last_modified": "2022-08-15T17:00:41+01:00",
     "input_file": {}
   }
 ]
