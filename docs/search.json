@@ -5,16 +5,16 @@
       "title": "Ghozayel elotteebi",
       "description": "A senior PhD student at the University of nottingham",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-16T10:57:44+01:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-08-16T13:17:06+03:00"
     },
     {
       "path": "index.html",
       "title": "I love R",
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-16T10:57:45+01:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-08-16T13:22:08+03:00"
     }
   ],
   "collections": ["posts/posts.json"]
